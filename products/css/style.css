@@ -1,0 +1,87 @@
+﻿/*CSS COMPONENT FOR FLEXBOX*/
+body {
+   background-color: lightblue;
+}
+
+main {
+   background-color: goldenrod;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sevilla-Metropol_Parasol-01.jpg/640px-Sevilla-Metropol_Parasol-01.jpg);
+   background-size: cover;
+}
+
+figure {
+    font-size: 16px;
+}
+
+p {
+    font-family: arial narrow;
+    font-size: 18px;
+}
+
+/* Visual Styles */
+
+section {
+    display: flex;
+    font-family: arial narrow;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;    
+}
+
+  /* Flexbox */
+
+.top {
+   justify-content: space-between;
+   padding: 0 50px;
+}
+
+.top a:link {
+    text-decoration: none;
+    display: block;
+    color: deeppink;
+}
+
+.top  a:hover {
+    background-color: goldenrod;
+}
+
+.bottom {
+   text-align: center;
+   justify-content: space-between;
+}
+
+
+    
+    body {
+    background-color: goldenrod;
+}
+    h1 {
+        text-align: center;
+    }
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+    color: deeppink;
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: slategrey; /* Grey background color */
+  color: deeppink; /* deeppink text color */
+}
+    
