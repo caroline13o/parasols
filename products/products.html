@@ -44,10 +44,19 @@ section {
     justify-content: space-around;
     align-items: center;
     color: whitesmoke;
-    
-    
 }
 
+a:link {
+    text-decoration: none;
+    display: block;
+    color: dodgerblue;
+    text-align: center;
+}
+    
+ a:hover {
+/*  background-color: slategrey;*/
+  color: dodgerblue; /* deeppink text color */
+}
   /* Flexbox */
 .top {
    justify-content: center;
@@ -58,7 +67,7 @@ section {
 .bottom {
    text-align: center;
    justify-content: space-between;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/parasol.wuhan.jpg);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/metropole.parasol.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -105,10 +114,13 @@ section {
     
 <div class="navbar">
   <a href="../index.html">HOME</a>
-  <a href="../about/about.html">About</a>
-  <a href="products/products.html">Products</a>
-  <a href="#" class="right">CONTACT</a>
+  <a href="../about/about.html">ABOUT</a>
+  <a href="products/products.html">PRODUCTS</a>
+  <a href="../contact/contact.html" class="right">CONTACT</a>
 </div>
+   
+     <p id="top"></p>
+    
     <div>
     
     <h1><em>Flexbox WITH Images Descriptions Prices AND Purchase BUTTON</em></h1>
@@ -128,9 +140,9 @@ section {
 <section class="bottom">
        
     <figure>   
-        <img src="../images/lazurite.parasol.jpg" alt="St. Petersburg Parasol" width="200" height="200"/>
-        <figcaption>WHITE SILK; LAPIS LAZULI, GOLD, AND METAL DETAILS.<br>
-        <em>from St. Petersburg</em><br>
+        <img src="../images/parasol.wuhan.jpg" alt="St. Wuhan Parasol" width="200" height="200"/>
+        <figcaption>PINK, BLUE, GREEN, TRANSPARENT CLOTH, FLOWER EMBROIDERY; BAMBOO RIBS & SHAFT<br>
+        <em>from Wuhan, China</em><br>
         $36.00
         <button>BUY</button></figcaption>
     </figure>
@@ -139,22 +151,22 @@ section {
         <img src="../images/champlitte.parasol.jpg" alt="Champlitte Parasol" width="200" height="200"/>
 		<figcaption>WHITE CANVAS, ORANGE BORDER; WOODEN CANE, INLAID GOLDEN METAL <br>
 		<em> from Champlitte </em> <br>
-		$29.00 </figcaption>
+		$29.00 
 		<button>BUY</button></figcaption>
     </figure>
     
     <figure>
-         <img src="../images/auckland.parasol.jpg" alt="Auckland Parasol" width="200" height="200"/>
-         <figcaption>GREY & BLACK SILK, FRINGED LACE BORDER; WOODEN CANE SHAFT<br>
+         <img src="../images/auckland.lace.parasol.jpg" alt="Auckland Lace Parasol" width="200" height="200"/>
+         <figcaption> EMBROIDERED SILK, CREAM LINING, LACE EDGING; WOOD SHAFT<br>
          <em>from Auckland</em><br>
          $56.00
          <button>BUY</button></figcaption>
     </figure>
     
     <figure>
-         <img src="../images/auckland.lace.parasol.jpg" alt="Auckland Lace Parasol" width="200" height="200"/>
-         <figcaption> EMBROIDERED SILK, CREAM LINING, LACE EDGING; WOOD SHAFT <br>
-         <em>from Auckland</em><br>
+         <img src="../images/lazurite.parasol.jpg" alt="St. Petersburg Parasol" width="200" height="200"/>
+         <figcaption>WHITE SILK; LAPIS LAZULI, GOLD, AND METAL DETAILS<br>
+         <em>from St. Petersburg</em><br>
          $55.00
          <button>BUY</button></figcaption>
     </figure>
@@ -180,9 +192,9 @@ section {
     </figure>
     
     <figure>
-         <img src="../images/cat.yellow.bench.jpg" alt="CAT ON YELLOW BENCH" width="200" height="200"/>
-         <figcaption>IMAGE COMING SOON; INK DRAWING OF PARASOL<br>
-         <em>Cat on Yellow Bench</em><br>
+         <img src="../images/auckland.parasol.jpg" alt="Auckland Parasol" width="200" height="200"/>
+         <figcaption>GREY & BLACK SILK, FRINGED LACE BORDER; WOODEN CANE SHAFT<br>
+         <em>from Auckland</em><br>
          $36.00
          <button>BUY</button></figcaption>
     </figure>
@@ -199,9 +211,9 @@ section {
      <section class="bottom">
         
     <figure>   
-        <img src="../images/ink.parasol.jpg" alt="PARASOL INK DRAWING" width="200" height="200"/>
-        <figcaption>IMAGE COMING SOON; INK DRAWING OF PARASOL<br>
-        <em>Cat on Yellow Bench</em><br>
+        <img src="../images/parasol.osaka.jpg" alt="OSAKA PARASOL" width="200" height="200"/>
+        <figcaption>MONOTONE or DUAL-TONE PAINTED SILK; WOODEN CANE SHAFT<br>
+        <em>from Osaka, Japan</em><br>
         $56.00
          <button>BUY</button></figcaption>
     </figure>
@@ -215,35 +227,35 @@ section {
     </figure>
     
     <figure>
-         <img src="../images/cat.yellow.bench.jpg" alt="CAT ON YELLOW BENCH" width="200" height="200"/>
-         <figcaption>IMAGE COMING SOON; INK DRAWING OF PARASOL<br>
-         <em>Cat on Yellow Bench</em><br>
+         <img src="../images/florence.parasol.jpg" alt="FLORENCE PARASOL" width="200" height="200"/>
+         <figcaption>POLYGONAL SHAPED COTTON CANVAS; BAMBOO SHAFT & RIBS<br>
+         <em>from Florence Italy</em><br>
          $36.00
          <button>BUY</button></figcaption>
     </figure>
     
     <figure>
          <img src="../images/ink.parasol.jpg" alt="PARASOL INK DRAWING" width="200" height="200"/>
-         <figcaption>SOLAR SYSTEM BIB NECKLACE <br>
-         <em>IMAGE COMING SOON; INK DRAWING OF PARASOL</em><br>
+         <figcaption>IMAGE COMING SOON; INK DRAWING OF PARASOL <br>
+         <em>Cat on Yellow Bench</em><br>
          $55.00
          <button>BUY</button></figcaption>
     </figure>
    
 </section>
     
+    <p>
+        <a href="#top"> RETURN TO TOP </a>
+    </p>
   </main>
   
    <br> <br> <br>
 <footer class="footer">
-  <a href="#"><i class="fa fa-facebook-official"></i></a>
-  <a href="#"><i class="fa fa-pinterest-p"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-flickr"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
+   <a href="#"><i>FOOTER</i></a>
   <p class="medium">
-    Powered by <a href="https://github.com/"" target="_blank">GitHub</a>
-  </p>
+    Powered by <a href="https://github.com/" target="_blank">GitHub</a>
+    </p>
+      
 </footer>
 
 </body>

@@ -2,6 +2,11 @@
 /*CSS FOR FINAL PROJECT PHASE I*/
 
 /*CSS Styles*/
+
+*{
+/*IN CASE THAT GOOGLE FONTS IS NOT WORKING, THIS FONT TAKES OVER*/
+    font-family: 'Shadows Into Light', cursive;
+}
 body {
     background-color: #DAA520;
    
@@ -9,9 +14,43 @@ body {
 
 h2 {
     text-align: center;
-     font-family: Arial Narrow;
+    font-family: 'Shadows Into Light', cursive;
 }
 
+
+div p {
+  
+  text-align: justify;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+#right {
+    float: right;
+    margin: 5px; 
+    }
+    
+#last {
+       clear: left;
+    }
+
+#form {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    font-style: oblique; 
+}
+
+#img {
+    border: 3px  solid #DAA520;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: deeppink;
+}
 /*CSS Classes*/
 
 /* Style the top navigation bar */
