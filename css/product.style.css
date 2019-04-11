@@ -1,0 +1,161 @@
+/*PRODUCTS CSS COMPONENTS*/
+  
+main {
+   background-color: #DAA520;
+   
+}
+
+/*This is CSS for the items in Flexbox using "figure*/
+figure {
+    font-size: 14px;
+    border: 3px  solid #DAA520;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+/*This is CSS for "round" BUTTON display of individual parasols*/
+#corners {
+  border-radius: 25px;
+  background-color: whitesmoke;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 5px; 
+/*  width: 200px;*/
+/*  height: 150px; */
+}
+
+p {
+    font-family: arial narrow;
+    font-size: 25px;
+    /*DodgerBlue Color*/
+     color: #1E90FF;
+}
+
+top {
+     font-size: 10px;
+     margin-top: 5%;
+}
+   
+/* Visual Styles */
+body {
+    /*GoldenRod Background Color*/
+    background-color: #DAA520;
+    font-family: 'Shadows Into Light', cursive;
+} 
+
+    
+section {
+    display: flex;
+    font-family: arial narrow;
+    justify-content: space-around;
+    align-items: center;
+    /*THIS COLOR IS WHITESMOKE*/
+    color: #F5F5F5;
+}
+
+a:link {
+    text-decoration: none;
+    display: block;
+    /*THIS COLOR IS DEEPPINK*/
+    color: #FF1493;
+    text-align: center;
+}
+    
+ a:hover {
+/*  background-color: slategrey;*/
+  color: #FF1493; /* deeppink text color */
+}
+
+/*CSS FOR INDIVIDUAL PARASOL*/
+.individual {
+        text-align: center;
+        color: #333;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+  /* Flexbox */
+.head {
+        text-align: center;
+        color: #333;
+        font-family: 'Shadows Into Light', cursive;
+        /*margin-top: 5%;*/
+}
+  
+
+
+.top {
+   justify-content: center;
+/*   padding: 0 50px;*/
+
+}
+
+.bottom {
+   text-align: center;
+   justify-content: space-between;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/metropole.parasol.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+   position: fixed;
+  top: 0;
+  width: 100%;
+  /*border: solid dodgerblue;*/
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: #F5F5F5; /* WhiteSmoke text color */
+  text-align: center; /* Center the text */
+  padding: 5px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+  color: #FF1493; /* deeppink text color *?
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #708090; /* SlateGrey background color */
+  color: #FF1493; /* deeppink text color */
+}
+
+.medium {
+  text-align: center;
+}
+
+.footer {
+  padding: 10px; /* Some padding */
+  text-align: center; /* Center text*/
+  background-color: #708090; /* SlateGrey background */
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row { 
+    flex-direction: column;
+    object-fit: scale-down;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+

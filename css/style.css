@@ -1,15 +1,10 @@
-
-/*CSS FOR FINAL PROJECT PHASE I*/
-
 /*CSS Styles*/
 
-*{
-/*IN CASE THAT GOOGLE FONTS IS NOT WORKING, THIS FONT TAKES OVER*/
-    font-family: 'Shadows Into Light', cursive;
-}
+
 body {
     background-color: #DAA520;
-   
+    /*GOOGLE FONT*/
+    font-family: 'Shadows Into Light', cursive;
 }
 
 h2 {
@@ -17,26 +12,26 @@ h2 {
     font-family: 'Shadows Into Light', cursive;
 }
 
-
 div p {
-  
+  padding: 0px 25px;
   text-align: justify;
   font-size: 20px;
-  color: whitesmoke;
+  color: #333;
 }
 
 #right {
     float: right;
     margin: 5px; 
+    margin-left: 30px;
     }
     
 #last {
-       clear: left;
-    }
+    clear: left;
+}
 
 #form {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 18px;
+    font-size: 29px;
     font-style: oblique; 
 }
 
@@ -49,7 +44,8 @@ a:link {
     text-decoration: none;
     display: block;
     font-size: 16px;
-    color: deeppink;
+    /*DEEPPINK COLOR*/
+    color: #FF1493;
 }
 /*CSS Classes*/
 
@@ -57,28 +53,32 @@ a:link {
 .navbar {
   overflow: hidden; /* Hide overflow */
   background-color: #333; /* Dark background color */
+   /*position: fixed;*/
+  /*top: 0;*/
+  /*width: 100%;*/
+  /*border: 3px solid dodgerblue;*/
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
+  color: 	#F5F5F5; /* WhiteSmoke text color */
   text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
+  padding: 5px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
 }
 
 /* Right-aligned link */
 .navbar a.right {
   float: right; /* Float a link to the right */
-    color: deeppink;
+    color: #FF1493; /* deeppink text color */
 }
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: slategrey; /* Grey background color */
-  color: deeppink; /* deeppink text color */
+  background-color: #708090; /* SlateGrey background color */
+  color: #FF1493; /* deeppink text color */
 }
 
 
@@ -89,10 +89,13 @@ a:link {
 }
 
 
+.medium {
+  text-align: center;
+}
 .footer {
   padding: 10px; /* Some padding */
   text-align: center; /* Center text*/
-  background: slategrey; /* Grey background */
+  background-color: #708090; /* SlateGrey background */
 }
 
 
@@ -100,6 +103,7 @@ a:link {
 @media screen and (max-width: 700px) {
   .row { 
     flex-direction: column;
+    object-fit: scale-down;
   }
 }
 

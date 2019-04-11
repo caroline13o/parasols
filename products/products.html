@@ -1,116 +1,24 @@
 <!DOCTYPE html>
+
+<!-- THIS IS PRODUCTS.HTML -->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NYPL TechConnect Project</title>
-    <link rel="stylesheet" href="products/css/style.css">
+    <link rel="stylesheet" href="../css/product.style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     
-<style>
-    
-  /*CSS COMPONENTS*/
-main {
-   background-color: #DAA520;
-}
 
-figure {
-    font-size: 14px;
-    border: 3px  solid #DAA520;
-    box-sizing: border-box;
-}
-
-p {
-    font-family: arial narrow;
-    font-size: 18px;
-}
- #top {
-     font-family: arial narrow;
-     font-size: 25px;
-}
-   
-/* Visual Styles */
-body {
-    background-color: #DAA520;
-} 
-
-h1 {
-        text-align: center;
-    }
-    
-section {
-    display: flex;
-    font-family: arial narrow;
-    justify-content: space-around;
-    align-items: center;
-    color: whitesmoke;
-}
-
-a:link {
-    text-decoration: none;
-    display: block;
-    color: dodgerblue;
-    text-align: center;
-}
-    
- a:hover {
-/*  background-color: slategrey;*/
-  color: dodgerblue; /* deeppink text color */
-}
-  /* Flexbox */
-.top {
-   justify-content: center;
-/*   padding: 0 50px;*/
-   
-}
-
-.bottom {
-   text-align: center;
-   justify-content: space-between;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/metropole.parasol.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-    
-}
-
-.navbar {
-  overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
-  text-decoration: none; /* Remove underline */
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right; /* Float a link to the right */
-    color: deeppink;
-}
-
-/* Change color on hover/mouse-over */
-.navbar a:hover {
-  background-color: slategrey; /* Grey background color */
-  color: deeppink; /* deeppink text color */
-}
-
-.footer {
-  padding: 10px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: slategrey; /* Grey background */
-}
-    </style>
 </head>
     
 <body>
     
+    <p id="top"></p>
+    
+<main>   
     
 <div class="navbar">
   <a href="../index.html">HOME</a>
@@ -118,49 +26,51 @@ a:link {
   <a href="products/products.html">PRODUCTS</a>
   <a href="../contact/contact.html" class="right">CONTACT</a>
 </div>
-   
-     <p id="top"></p>
+  
+     
+ <section class="head">  
     
-    <div>
-    
-    <h1><em>Flexbox WITH Images Descriptions Prices AND Purchase BUTTON</em></h1>
-  </div>  
-
-    
-<main>
+    <h1><em>WORLDS OF PARASOLS </em></h1>
+     <h2>FEATURED PRODUCTS</h2>
+  
+</section>
         
 <section class="top">
     
-        <p id="top"> <strong>FEATURED PRODUCTS </strong></p>
+        <p id="top"> <strong>Click Any Parasol For A Larger view</strong></p>
+        
+       
 
 </section>
 
 
-
 <section class="bottom">
        
-    <figure>   
-        <img src="../images/parasol.wuhan.jpg" alt="St. Wuhan Parasol" width="200" height="200"/>
+<figure>   
+        <a href="products.01.html">    
+        <img src="../images/parasol.wuhan.jpg" alt="Wuhan Parasol" width="200" height="200"/> </a>
         <figcaption>PINK, BLUE, GREEN, TRANSPARENT CLOTH, FLOWER EMBROIDERY; BAMBOO RIBS & SHAFT<br>
         <em>from Wuhan, China</em><br>
         $36.00
-        <button>BUY</button></figcaption>
+        <button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
-        <img src="../images/champlitte.parasol.jpg" alt="Champlitte Parasol" width="200" height="200"/>
+        <a href="products.02.html"> 
+        <img src="../images/champlitte.parasol.jpg" alt="Champlitte Parasol" width="200" height="200"/> </a>
 		<figcaption>WHITE CANVAS, ORANGE BORDER; WOODEN CANE, INLAID GOLDEN METAL <br>
 		<em> from Champlitte </em> <br>
 		$29.00 
-		<button>BUY</button></figcaption>
+		<button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
-         <img src="../images/auckland.lace.parasol.jpg" alt="Auckland Lace Parasol" width="200" height="200"/>
+         <a href="products.03.html"> 
+         <img src="../images/auckland.lace.parasol.jpg" alt="Auckland Lace Parasol" width="200" height="200"/> </a>
          <figcaption> EMBROIDERED SILK, CREAM LINING, LACE EDGING; WOOD SHAFT<br>
          <em>from Auckland</em><br>
          $56.00
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
@@ -168,27 +78,29 @@ a:link {
          <figcaption>WHITE SILK; LAPIS LAZULI, GOLD, AND METAL DETAILS<br>
          <em>from St. Petersburg</em><br>
          $55.00
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
 </section>
      
-        <section class="bottom">
+<section class="bottom">
         
     <figure>   
-        <img src="../images/indonesia.parasol.jpg" alt="Indonesia Painted Parasol" width="200" height="200"/>
+        <a href="products.05.html">
+        <img src="../images/indonesia.parasol.jpg" alt="Indonesia Painted Parasol" width="200" height="200"/> </a>
         <figcaption>PAINTED PARASOL ON PAPER FIBER; WOOD SHAFT<br>
         <em>from Indonesia</em><br>
         $56.00
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
-        <img src="../images/basque.parasol.jpg" alt="Basque Country Parasol" width="200" height="200"/>
+        <a href="products.06.html">
+        <img src="../images/basque.parasol.jpg" alt="Basque Country Parasol" width="200" height="200"/> </a>
 		<figcaption>ABSTRACT FLOWERS CANVAS; METAL RIBS & METAL SHAFT <br>
 		<em> from Basque Country </em> <br>
 		$29.99 
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
@@ -196,50 +108,55 @@ a:link {
          <figcaption>GREY & BLACK SILK, FRINGED LACE BORDER; WOODEN CANE SHAFT<br>
          <em>from Auckland</em><br>
          $36.00
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
-         <img src="../images/ink.parasol.jpg" alt="PARASOL INK DRAWING" width="200" height="200"/>
+         <a href="products.08.html">
+             <img src="../images/ink.parasol.jpg" alt="PARASOL INK DRAWING" width="200" height="200"/> </a>
          <figcaption>IMAGE COMING SOON; INK DRAWING OF PARASOL <br>
          <em>Cat on Yellow Bench</em><br>
          $55.00
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
 </section>
-     <section class="bottom">
+     
+<section class="bottom">
         
     <figure>   
         <img src="../images/parasol.osaka.jpg" alt="OSAKA PARASOL" width="200" height="200"/>
         <figcaption>MONOTONE or DUAL-TONE PAINTED SILK; WOODEN CANE SHAFT<br>
         <em>from Osaka, Japan</em><br>
         $56.00
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
-        <img src="../images/ink.parasol.jpg" alt="PARASOL INK DRAWING" width="200" height="200"/>
+        <a href="products.10.html">
+        <img src="../images/ink.parasol.jpg" alt="PARASOL INK DRAWING" width="200" height="200"/> </a>
 		<figcaption>IMAGE COMING SOON; INK DRAWING OF PARASOL <br>
 		<em> Cat on Yellow Bench </em> <br>
 		$29.99 
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
-         <img src="../images/florence.parasol.jpg" alt="FLORENCE PARASOL" width="200" height="200"/>
+         <a href="products.11.html">
+         <img src="../images/florence.parasol.jpg" alt="FLORENCE PARASOL" width="200" height="200"/> </a>
          <figcaption>POLYGONAL SHAPED COTTON CANVAS; BAMBOO SHAFT & RIBS<br>
          <em>from Florence Italy</em><br>
          $36.00
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
     
     <figure>
-         <img src="../images/ink.parasol.jpg" alt="PARASOL INK DRAWING" width="200" height="200"/>
+         <a href="products.12.html">
+         <img src="../images/ink.parasol.jpg" alt="PARASOL INK DRAWING" width="200" height="200"/> </a>
          <figcaption>IMAGE COMING SOON; INK DRAWING OF PARASOL <br>
          <em>Cat on Yellow Bench</em><br>
          $55.00
-         <button>BUY</button></figcaption>
+         <button id="corners">BUY</button></figcaption>
     </figure>
    
 </section>
@@ -247,15 +164,15 @@ a:link {
     <p>
         <a href="#top"> RETURN TO TOP </a>
     </p>
-  </main>
+ 
   
    <br> <br> <br>
 <footer class="footer">
    <a href="#"><i>FOOTER</i></a>
-  <p class="medium">
+   <p class="medium">
     Powered by <a href="https://github.com/" target="_blank">GitHub</a>
     </p>
-      
+      </main>
 </footer>
 
 </body>
