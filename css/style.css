@@ -1,10 +1,9 @@
-/*CSS Styles*/
-
+/*CSS STYLES*/
 
 body {
-    background-color: #DAA520;
-    /*GOOGLE FONT*/
-    font-family: 'Shadows Into Light', cursive;
+    background-color: #daa520; /*GoldenRod, 49%*/
+    font-family: 'Shadows Into Light', cursive; /*GOOGLE Font*/
+    box-sizing:border-box;
 }
 
 h2 {
@@ -12,33 +11,42 @@ h2 {
     font-family: 'Shadows Into Light', cursive;
 }
 
+
+/* CSS Styles For 'About.html' Page */
 div p {
   padding: 0px 25px;
   text-align: justify;
   font-size: 20px;
-  color: #333;
+  color: #33333;
 }
 
-#right {
+right {
     float: right;
     margin: 5px; 
     margin-left: 30px;
     }
     
-#last {
+last {
     clear: left;
 }
 
-#form {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 29px;
+
+/* CSS Styles For 'Contact.html' Page */
+form {
+    font-family: 'Raleway' sans-serif;
+    font-size: 13px;
     font-style: oblique; 
+    margin: 0 auto; 
+    width:350px;
 }
 
-#img {
-    border: 3px  solid #DAA520;
+img {
+    /*Border, same as background: GOLDENROD, 49%*/
+    border: 3px  solid #daa520;
     box-sizing: border-box;
+    margin: 0 auto; 
 }
+
 
 a:link {
     text-decoration: none;
@@ -52,7 +60,7 @@ a:link {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+  background-color: #333333; /* Dark background color */
    /*position: fixed;*/
   /*top: 0;*/
   /*width: 100%;*/
@@ -77,7 +85,7 @@ a:link {
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #708090; /* SlateGrey background color */
+  background-color: #1E90FF; /* DodgerBlue */
   color: #FF1493; /* deeppink text color */
 }
 
@@ -91,11 +99,17 @@ a:link {
 
 .medium {
   text-align: center;
+  color: #1E90FF;
 }
+
 .footer {
-  padding: 10px; /* Some padding */
+  /*padding: 10px;*/
   text-align: center; /* Center text*/
-  background-color: #708090; /* SlateGrey background */
+  background-color: #333333; 
+  color: #1E90FF;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 }
 
 
