@@ -1,23 +1,39 @@
+
 /*CSS STYLES*/
 
 body {
     background-color: #daa520; /*GoldenRod, 49%*/
-    font-family: 'Shadows Into Light', cursive; /*GOOGLE Font*/
+    /*font-family: 'Shadows Into Light', cursive; /*GOOGLE Font*/
     box-sizing:border-box;
 }
 
-h2 {
+/* CSS for Class='Home' */
+.home h1 {
     text-align: center;
+    color: #333333; /* Grey20, 20% */
     font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.home h2 {
+    text-align: center;
+    color: #333333; /* Grey20, 20% */
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+.home img {
+  display: block; 
 }
 
 
-/* CSS Styles For 'About.html' Page */
+/* CSS for 'About.html' */
 div p {
   padding: 0px 25px;
   text-align: justify;
   font-size: 20px;
-  color: #33333;
+  color: #333333;
 }
 
 right {
@@ -31,7 +47,7 @@ last {
 }
 
 
-/* CSS Styles For 'Contact.html' Page */
+/* CSS for 'Contact.html' */
 form {
     font-family: 'Raleway' sans-serif;
     font-size: 13px;
@@ -41,72 +57,69 @@ form {
 }
 
 img {
-    /*Border, same as background: GOLDENROD, 49%*/
-    border: 3px  solid #daa520;
+    border: 3px  solid #daa520; /* GoldenRod, 49% */
     box-sizing: border-box;
     margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
 }
 
+/* CSS for Links */
+a {
+color: #ff1493; /*deepPink, 54%*/
+}
 
 a:link {
     text-decoration: none;
     display: block;
     font-size: 16px;
-    /*DEEPPINK COLOR*/
-    color: #FF1493;
+    color: #ff1493; /*deepPink 54% */
 }
-/*CSS Classes*/
 
-/* Style the top navigation bar */
+/* CSS for Navigation Bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #333333; /* Dark background color */
+  background-color: #333333/* Gray20, 20% */
    /*position: fixed;*/
   /*top: 0;*/
   /*width: 100%;*/
   /*border: 3px solid dodgerblue;*/
 }
 
-/* Style the navigation bar links */
+/* Style Navigation Bar links */
 .navbar a {
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: 	#F5F5F5; /* WhiteSmoke text color */
+  color: 	#f5f5f5; /* WhiteSmoke text color */
   text-align: center; /* Center the text */
-  padding: 5px 20px; /* Add some padding */
+  padding: 10px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
 }
 
 /* Right-aligned link */
 .navbar a.right {
   float: right; /* Float a link to the right */
-    color: #FF1493; /* deeppink text color */
+    color: #ff1493; /* deepPink text color */
 }
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #1E90FF; /* DodgerBlue */
-  color: #FF1493; /* deeppink text color */
+  background-color: #1e90ff; /* DodgerBlue, 56% */
+  color: #ff1493; /* deepPink text color */
 }
 
 
-.header {
-   text-align: center; 
-   padding: 5px;
-   font-family: Arial Narrow;
-}
-
-
-.medium {
+/* CSS for Footer Elements */
+#medium {
+  font-size: 16px;
   text-align: center;
-  color: #1E90FF;
+  color: #1e90ff; /* DodgerBlue, 56% */
 }
 
 .footer {
-  /*padding: 10px;*/
   text-align: center; /* Center text*/
-  background-color: #333333; 
-  color: #1E90FF;
+  background-color: #333333; /* Gray20, 20% */
+  color: #1e90ff; /* DodgerBlue */
    left: 0;
    bottom: 0;
    width: 100%;
@@ -114,18 +127,29 @@ a:link {
 
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row { 
+@media (max-width: 600px) {
+  .bottom { 
     flex-direction: column;
-    object-fit: scale-down;
+    height: auto;
+  }
+  
+  .header {
+    flex-direction: column;
+    height: auto;
   }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .navbar a {
     float: none;
     width: 100%;
+    height: auto;
+  }
+  
+  .header {
+    flex-direction: column;
+    height: auto;
   }
 }
 

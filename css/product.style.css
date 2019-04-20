@@ -9,7 +9,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #333333;
+    color: #333333; /* Grey20. 20% */
     font-family: 'Shadows Into Light', cursive;
     font-size: 35px;
     padding-top: 15px;
@@ -17,7 +17,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #333333;
+    color: #333333; /* Grey20, 20% */
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
@@ -39,9 +39,8 @@ top {
 .center {
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
-    /*DodgerBlue Color, 56%*/
-     color: #1e90ff;
-     text-align: center; 
+    color: #1e90ff; /* DodgerBlue, 56% */
+    text-align: center; 
 }
 
 
@@ -88,23 +87,19 @@ figure {
 /*CSS FOr Individual Parasol*/
 .individual {
     text-align: center;
-    color: #333333;
+    color: #333333; /* Grey20, 20% */
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Navigation Bar Styling (Below) */
-a:link {
-    text-decoration: none;
-    display: block;
-    color: #ff1493; /* DeepPink, 54% */
-    text-align: center;
-}
-    
- a:hover {
-  background-color:  #1e90ff;/* DodgerBlue */;
-  color: #ff1493; /* deeppink text color, 54% */
+img {
+    /*Border, same as background: GOLDENROD, 49%*/
+    border: 3px  solid #daa520;
+    box-sizing: border-box;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
 }
 
 .bottom img {
@@ -112,14 +107,31 @@ a:link {
   vertical-align: middle;
 }
 
-/* Style the navigation bar links */
+/* CSS for Links */
+a {
+color: #ff1493; /*deepPink, 54%*/
+}
+
+a:link {
+    text-decoration: none;
+    display: block;
+    color: #ff1493; /* deepPink, 54% */
+    text-align: center;
+}
+ 
+ a:hover {
+  background-color:  #1e90ff;/* DodgerBlue, 56% */;
+  color: #ff1493; /* deepPink text color, 54% */
+}
+
+
+/* CSS for Navigation Bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #333333; /* Dark background color */
-   position: fixed;
+  background-color: #333333; /* Grey20, 20% */
+  position: fixed;
   top: 0;
   width: 100%;
-  /*border: solid dodgerblue;*/
 }
 
 
@@ -141,7 +153,7 @@ a:link {
 /* Change color on hover/mouse-over */
 .navbar a:hover {
   background-color: #1E90FF; /* DodgerBlue */
-  color: #FF1493; /* deeppink text color */
+  color: #FF1493; /* deepPink text color */
 }
 
 .medium {
@@ -150,36 +162,36 @@ a:link {
 
 
 .footer {
-  /*padding: 10px;  */
   text-align: center; /* Center text*/
-  background-color: #333333; /* Dark background */
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: #F5F5F5; /* WhiteSmoke Color */
-   
+  background-color: #333333; /* Gray20, 20% */
+  color: #1e90ff; /* DodgerBlue */
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
 
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media (max-width: 600px) {
   .bottom { 
-    /*flex-direction: column;*/
-    flex: 50%;
-    max-width: 50%;
+    flex-direction: column;
+  }
+  .header {
+    flex-direction: column;
+  }
+
 }
 
-
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .navbar a {
     float: none;
     width: 100%;
+    height: auto;
   }
-  .bottom { 
-    flex: 100%;
-    max-width: 100%;
+ .header {
+    flex-direction: column;
   }
-
 }
 
