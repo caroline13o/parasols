@@ -73,6 +73,69 @@ figure {
     width: 30%;
 }
 
+
+#number01 {
+  height: 250px;
+  width: 250px;  
+}
+
+#number02 {
+  height: 250px;
+  width: 250px;  
+}
+
+#number03 {
+  height: 250px;
+  width: 250px;  
+}
+
+#number04 {
+  height: 250px;
+  width: 250px;  
+}
+
+#number05 {
+  height: 250px;
+  width: 250px;  
+}
+
+#number06 {
+  height: 250px;
+  width: 250px;  
+}
+
+#number07 {
+  height: 250px;
+  width: 250px;  
+}
+
+#number08 {
+  height: 250px;
+  width: 250px;  
+}
+
+#number09 {
+  height: 250px;
+  width: 250px;  
+}
+#number10 {
+  height: 250px;
+  width: 250px;  
+}
+#number11 {
+  height: 250px;
+  width: 250px;  
+}
+#number12 {
+  height: 250px;
+  width: 250px;  
+}
+#number13 {
+  height: 250px;
+  width: 250px;  
+}
+
+
 /* CSS 'round' BUTTON display */
 #corners {
   border-radius: 25px;
@@ -145,9 +208,10 @@ a:link {
 }
 
 /* Right-aligned link */
+
 .navbar a.right {
   float: right; /* Float a link to the right */
-  color: #ff1493; /* deeppink text color *?
+  color: #ff1493; /* deeppink text color */
 }
 
 /* Change color on hover/mouse-over */

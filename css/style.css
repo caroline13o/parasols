@@ -7,7 +7,7 @@ body {
     box-sizing:border-box;
 }
 
-/* CSS for Class='Home' */
+/* CSS for Index.html */
 .home h1 {
     text-align: center;
     color: #333333; /* Grey20, 20% */
@@ -48,9 +48,12 @@ last {
 
 
 /* CSS for 'Contact.html' */
+h2 {
+    text-align: center;
+}
 form {
     font-family: 'Raleway' sans-serif;
-    font-size: 13px;
+    font-size: 17px;
     font-style: oblique; 
     margin: 0 auto; 
     width:350px;
