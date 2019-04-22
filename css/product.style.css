@@ -17,32 +17,39 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #333333; /* Grey20, 20% */
+    color: #1e90ff; /* DodgerBlue, 56% */
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
   
 h3 {
     text-align: center;
-    color: #1e90ff;/* DodgerBlue */
+    color: #f5f5f5; /* WhiteSmoke text */
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+  
+h4 {
+    text-align: center;
+    color: #f5f5f5; /* WhiteSmoke text */
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
-/* Two CSS Commands (Below) Styling 'Return To Top' Command */
-
-top {
-     font-size: 5px;
-     margin-top: 15%;
-}
-
+/* CSS 'Return To Top' Command */
 .center {
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-    color: #1e90ff; /* DodgerBlue, 56% */
+    padding: 20px; 
     text-align: center; 
 }
 
+/* CSS 'round' BUTTON display */
+#corners {
+  border-radius: 25px;
+  background-color: #f5f5f5; /* WhiteSmoke, 96% */
+  background-position: left top;
+  background-repeat: repeat;
+}
 
 /* CSS Flexbox Container */
 section {
@@ -51,7 +58,7 @@ section {
     align-items: center;
     font-family: 'Raleway', sans-serif;
     justify-content: center;
-    color: #f5f5f5; /*WhiteSmoke, 96%*/
+    color: #f5f5f5; /*WhiteSmoke, text, 96%*/
 }
 
 .bottom {
@@ -67,8 +74,7 @@ section {
 /*CSS Flexbox Items */
 figure {
     font-size: 14px;
-    /*Border is same as background: GoldenRod, 49%*/
-    border: 3px  solid #daa520;
+    border: 3px  solid #daa520; /* GoldenRod, 49% */
     box-sizing: border-box;
     width: 30%;
 }
@@ -78,42 +84,34 @@ figure {
   height: 250px;
   width: 250px;  
 }
-
 #number02 {
   height: 250px;
   width: 250px;  
 }
-
 #number03 {
   height: 250px;
   width: 250px;  
 }
-
 #number04 {
   height: 250px;
   width: 250px;  
 }
-
 #number05 {
   height: 250px;
   width: 250px;  
 }
-
 #number06 {
   height: 250px;
   width: 250px;  
 }
-
 #number07 {
   height: 250px;
   width: 250px;  
 }
-
 #number08 {
   height: 250px;
   width: 250px;  
 }
-
 #number09 {
   height: 250px;
   width: 250px;  
@@ -135,17 +133,6 @@ figure {
   width: 250px;  
 }
 
-
-/* CSS 'round' BUTTON display */
-#corners {
-  border-radius: 25px;
-  background-color: #f5f5f5; /* WhiteSmoke, 96% */
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 5px; 
-/*  width: 200px;*/
-/*  height: 150px; */
-}
 
 /*CSS FOr Individual Parasol*/
 .individual {
