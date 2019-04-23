@@ -2,8 +2,7 @@
   
 /* Visual Styles */
 body {
-    /*GoldenRod Background Color, 49%*/
-    background-color: #daa520;
+    background-color: #daa520; /* GoldenRod, 49% */
     font-family: 'Shadows Into Light', cursive;
 } 
 
@@ -24,7 +23,7 @@ h2 {
   
 h3 {
     text-align: center;
-    color: #f5f5f5; /* WhiteSmoke text */
+    color: #f5f5f5; /* WhiteSmoke, 96% */
     font-family: 'Shadows Into Light', cursive;
     font-size: 30px;
 }
@@ -32,7 +31,7 @@ h3 {
   
 h4 {
     text-align: center;
-    color: #f5f5f5; /* WhiteSmoke text */
+    color: #f5f5f5; /* WhiteSmoke, 96% */
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
@@ -58,7 +57,7 @@ section {
     align-items: center;
     font-family: 'Raleway', sans-serif;
     justify-content: center;
-    color: #f5f5f5; /*WhiteSmoke, text, 96%*/
+    color: #f5f5f5; /*WhiteSmoke, 96%*/
 }
 
 .bottom {
@@ -79,62 +78,13 @@ figure {
     width: 30%;
 }
 
-
-#number01 {
+figure img {
   height: 250px;
-  width: 250px;  
-}
-#number02 {
-  height: 250px;
-  width: 250px;  
-}
-#number03 {
-  height: 250px;
-  width: 250px;  
-}
-#number04 {
-  height: 250px;
-  width: 250px;  
-}
-#number05 {
-  height: 250px;
-  width: 250px;  
-}
-#number06 {
-  height: 250px;
-  width: 250px;  
-}
-#number07 {
-  height: 250px;
-  width: 250px;  
-}
-#number08 {
-  height: 250px;
-  width: 250px;  
-}
-#number09 {
-  height: 250px;
-  width: 250px;  
-}
-#number10 {
-  height: 250px;
-  width: 250px;  
-}
-#number11 {
-  height: 250px;
-  width: 250px;  
-}
-#number12 {
-  height: 250px;
-  width: 250px;  
-}
-#number13 {
-  height: 250px;
-  width: 250px;  
+  width: 250px;
 }
 
 
-/*CSS FOr Individual Parasol*/
+/*CSS For Individual Parasol*/
 .individual {
     text-align: center;
     color: #333333; /* Grey20, 20% */
@@ -144,8 +94,7 @@ figure {
 }
 
 img {
-    /*Border, same as background: GOLDENROD, 49%*/
-    border: 3px  solid #daa520;
+    border: 3px  solid #daa520; /* GoldenRod, 49% */
     box-sizing: border-box;
     margin: 0 auto; 
     max-width: 100%;
@@ -171,7 +120,7 @@ a:link {
  
  a:hover {
   background-color:  #1e90ff;/* DodgerBlue, 56% */;
-  color: #ff1493; /* deepPink text color, 54% */
+  color: #ff1493; /* deepPink, 54% */
 }
 
 
@@ -188,7 +137,7 @@ a:link {
 .navbar a {
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: #f5f5f5; /* WhiteSmoke text color */
+  color: #f5f5f5; /* WhiteSmoke, 96% */
   text-align: center; /* Center the text */
   padding: 5px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
@@ -198,13 +147,13 @@ a:link {
 
 .navbar a.right {
   float: right; /* Float a link to the right */
-  color: #ff1493; /* deeppink text color */
+  color: #ff1493; /* deepPink, 54% */
 }
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
   background-color: #1E90FF; /* DodgerBlue */
-  color: #FF1493; /* deepPink text color */
+  color: #FF1493; /* deepPink, 54% */
 }
 
 .medium {
@@ -222,9 +171,8 @@ a:link {
 }
 
 
-
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .bottom { 
     flex-direction: column;
   }
