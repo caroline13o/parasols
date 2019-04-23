@@ -45,38 +45,10 @@ h2 {
 
 .box {
   float: left;
-  width: 33.33%;
-  padding: 50px;
+  width: 25%;
+  padding: 25px;
   text-align: justify;
 }
-
-/*.box2 {*/
-/*  float: left;*/
-/*  width: 33.33%;*/
-/*  padding: 50px;*/
-/*  text-align: justify;*/
-/*}*/
-
-/*.box3 {*/
-/*  float: left;*/
-/*  width: 33.33%;*/
-/*  padding: 50px;*/
-/*  text-align: justify;*/
-/*}*/
-
-/*.box4 {*/
-/*  float: left;*/
-/*  width: 33.33%;*/
-/*  padding: 50px;*/
-/*  text-align: justify;*/
-/*}*/
-
-/*.box4 {*/
-/*  float: left;*/
-/*  width: 33.33%;*/
-/*  padding: 50px;*/
-/*  text-align: justify;*/
-/*}*/
 
 .clearfix::after {
   content: "";
